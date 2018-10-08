@@ -1,20 +1,24 @@
-.. SAF documentation master file, created by
-   sphinx-quickstart on Mon Oct  8 11:36:33 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. include:: global.rst.inc
+.. highlight:: none
 
-Welcome to SAF's documentation!
-===============================
+Borg Documentation
+==================
+
+.. include:: ../README.rst
+
+.. when you add an element here, do not forget to add it to book.rst
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   installation
+   quickstart
+   usage
+   deployment
+   faq
+   support
+   resources
+   changes
+   internals
+   development
+   authors
