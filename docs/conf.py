@@ -100,10 +100,12 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-import guzzle_sphinx_theme
 
-html_theme_path = guzzle_sphinx_theme.html_theme_path()
-html_theme = 'guzzle_sphinx_theme'
+#import guzzle_sphinx_theme
+#html_theme_path = guzzle_sphinx_theme.html_theme_path()
+#html_theme = 'guzzle_sphinx_theme'
+
+html_theme = 'alabaster'
 
 
 def set_rst_settings(app):
@@ -255,9 +257,11 @@ man_pages = [
 extensions = [
     'sphinx.ext.extlinks',
     'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
+    'sphinx.ext.ifconfig',
 ]
 
 extlinks = {
