@@ -17,7 +17,8 @@
 import sys, os
 sys.path.insert(0, os.path.abspath('../src'))
 
-from borg import __version__ as sw_version
+#from saf import __version__ as sw_version
+sw_version='1.0.0'
 
 # -- General configuration -----------------------------------------------------
 
@@ -147,7 +148,7 @@ html_favicon = '_static/favicon.ico'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['borg_theme']
 
-html_extra_path = ['../src/borg/paperkey.html']
+html_extra_path = ['../src/paperkey.html']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
